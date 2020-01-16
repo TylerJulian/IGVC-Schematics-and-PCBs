@@ -1,0 +1,1079 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USBhUB:ABM8AIG-24.000MHZ-12-2Z-T3 24mhz
+U 1 1 5D9DB98E
+P 4900 6100
+F 0 "24mhz" V 5654 6228 50  0000 L CNN
+F 1 "ABM8AIG-24.000MHZ-12-2Z-T3" V 5745 6228 50  0000 L CNN
+F 2 "ABM8AIG25000MHZ122ZT3" H 6350 6200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ABM8AIG-24.000MHZ-12-2Z-T3.pdf" H 6350 6100 50  0001 L CNN
+F 4 "ABRACON - ABM8AIG-24.000MHZ-12-2Z-T3 - CRYSTAL, AEC-Q200, 24MHZ, 12PF, 3.2X2.5MM" H 6350 6000 50  0001 L CNN "Description"
+F 5 "0" H 6350 5900 50  0001 L CNN "Height"
+F 6 "815-M8AIG-24-12-2ZT3" H 6350 5800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=815-M8AIG-24-12-2ZT3" H 6350 5700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ABRACON" H 6350 5600 50  0001 L CNN "Manufacturer_Name"
+F 9 "ABM8AIG-24.000MHZ-12-2Z-T3" H 6350 5500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4900 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 6100 4800 6100
+$Comp
+L USBhUB:CRCW120610M0FKEAC 10Mohm
+U 1 1 5D9E17A4
+P 4600 5995
+F 0 "10Mohm" H 4950 6128 50  0000 C CNN
+F 1 "CRCW120610M0FKEAC" H 4950 6129 50  0001 C CNN
+F 2 "RESC3216X60N" H 5150 6045 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CRCW120610M0FKEAC.pdf" H 5150 5945 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 1/4Watt 10Mohms 1% Commercial Use" H 5150 5845 50  0001 L CNN "Description"
+F 5 "0.6" H 5150 5745 50  0001 L CNN "Height"
+F 6 "71-CRCW120610M0FKEAC" H 5150 5645 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW120610M0FKEAC" H 5150 5545 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Vishay" H 5150 5445 50  0001 L CNN "Manufacturer_Name"
+F 9 "CRCW120610M0FKEAC" H 5150 5345 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4600 5995
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6100 5300 6100
+Connection ~ 5300 6100
+Wire Wire Line
+	5300 6100 5300 6150
+$Comp
+L USBhUB:GCQ1555C1H7R5BB01D 7.5pf
+U 1 1 5D9E255F
+P 5300 6150
+F 0 "7.5pf" H 5550 6323 50  0000 C CNN
+F 1 "10 pf" H 5550 6324 50  0001 C CNN
+F 2 "CAPC1005X55N" H 5650 6200 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCQ1555C1H7R5BB01%23.html" H 5650 6100 50  0001 L CNN
+F 4 "Capacitor GCQ15_0.05 L=1.0mm W=0.5mm T=0.5mm" H 5650 6000 50  0001 L CNN "Description"
+F 5 "0.55" H 5650 5900 50  0001 L CNN "Height"
+F 6 "" H 5650 5800 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5650 5700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 5650 5600 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCQ1555C1H7R5BB01D" H 5650 5500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5300 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L USBhUB:GCQ1555C1H7R5BB01D 7.5pf
+U 1 1 5D9E312B
+P 4600 6600
+F 0 "7.5pf" H 4850 6773 50  0000 C CNN
+F 1 "GCQ1555C1H7R5BB01D" H 4850 6774 50  0001 C CNN
+F 2 "CAPC1005X55N" H 4950 6650 50  0001 L CNN
+F 3 "https://psearch.en.murata.com/capacitor/product/GCQ1555C1H7R5BB01%23.html" H 4950 6550 50  0001 L CNN
+F 4 "Capacitor GCQ15_0.05 L=1.0mm W=0.5mm T=0.5mm" H 4950 6450 50  0001 L CNN "Description"
+F 5 "0.55" H 4950 6350 50  0001 L CNN "Height"
+F 6 "" H 4950 6250 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 4950 6150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 4950 6050 50  0001 L CNN "Manufacturer_Name"
+F 9 "GCQ1555C1H7R5BB01D" H 4950 5950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4600 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9E3F9C
+P 5300 6650
+F 0 "#PWR?" H 5300 6400 50  0001 C CNN
+F 1 "GND" V 5305 6522 50  0000 R CNN
+F 2 "" H 5300 6650 50  0001 C CNN
+F 3 "" H 5300 6650 50  0001 C CNN
+	1    5300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9E4775
+P 4600 6600
+F 0 "#PWR?" H 4600 6350 50  0001 C CNN
+F 1 "GND" V 4605 6472 50  0000 R CNN
+F 2 "" H 4600 6600 50  0001 C CNN
+F 3 "" H 4600 6600 50  0001 C CNN
+	1    4600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9EB8D6
+P 3655 2095
+F 0 "#PWR?" H 3655 1845 50  0001 C CNN
+F 1 "GND" H 3660 1922 50  0000 C CNN
+F 2 "" H 3655 2095 50  0001 C CNN
+F 3 "" H 3655 2095 50  0001 C CNN
+	1    3655 2095
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D9ECFBD
+P 1850 4250
+F 0 "#PWR?" H 1850 4100 50  0001 C CNN
+F 1 "+3.3V" H 1865 4423 50  0000 C CNN
+F 2 "" H 1850 4250 50  0001 C CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+	1    1850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D9EF87B
+P 1850 6150
+F 0 "#PWR?" H 1850 5900 50  0001 C CNN
+F 1 "GND" H 1855 5977 50  0000 C CNN
+F 2 "" H 1850 6150 50  0001 C CNN
+F 3 "" H 1850 6150 50  0001 C CNN
+	1    1850 6150
+	1    0    0    -1  
+$EndComp
+Text Label 1700 4000 0    50   ~ 0
+3.2353VoltsActual
+$Comp
+L power:VDDF #PWR?
+U 1 1 5D9F3177
+P 1850 4350
+F 0 "#PWR?" H 1850 4200 50  0001 C CNN
+F 1 "VDDF" V 1867 4478 50  0000 L CNN
+F 2 "" H 1850 4350 50  0001 C CNN
+F 3 "" H 1850 4350 50  0001 C CNN
+	1    1850 4350
+	0    1    1    0   
+$EndComp
+Connection ~ 1850 4350
+Wire Wire Line
+	1850 4350 1850 4250
+Wire Wire Line
+	1850 4350 1850 4600
+$Comp
+L USBhUB:ERJ2RKD33R0X 33ohm
+U 1 1 5D9F517B
+P 1850 4600
+F 0 "33ohm" V 2154 4688 50  0000 L CNN
+F 1 "ERJ2RKD33R0X" V 2245 4688 50  0001 L CNN
+F 2 "RESC1005X40N" H 2400 4650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERJ2RKD33R0X.pdf" H 2400 4550 50  0001 L CNN
+F 4 "Panasonic Precision Thick Film Surface Mount Resistor 0402 Case 33 +/-0.5% 0.063W +/-100ppm/C" H 2400 4450 50  0001 L CNN "Description"
+F 5 "0.4" H 2400 4350 50  0001 L CNN "Height"
+F 6 "667-ERJ-2RKD33R0X" H 2400 4250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-2RKD33R0X" H 2400 4150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 2400 4050 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ2RKD33R0X" H 2400 3950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1850 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L USBhUB:ERJ2RKD18R0X 18ohm
+U 1 1 5D9F77EC
+P 1850 5450
+F 0 "18ohm" V 2200 5538 50  0000 L CNN
+F 1 "ERJ2RKD18R0X" V 2245 5538 50  0001 L CNN
+F 2 "RESC1005X40N" H 2400 5500 50  0001 L CNN
+F 3 "" H 2400 5400 50  0001 L CNN
+F 4 "ERJ2R Resistor 0.063W18R 0.5%100ppm?Panasonic Precision Thick Film Surface Mount Resistor 0402 Case 18 +/-0.5% 0.063W +/-100ppm/C " H 2400 5300 50  0001 L CNN "Description"
+F 5 "0.4" H 2400 5200 50  0001 L CNN "Height"
+F 6 "" H 2400 5100 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 2400 5000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 2400 4900 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ2RKD18R0X" H 2400 4800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1850 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 5450 1850 5400
+Connection ~ 1850 5400
+Wire Wire Line
+	1850 5400 1850 5300
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5D9F8FCD
+P 2350 5400
+F 0 "#PWR?" H 2350 5250 50  0001 C CNN
+F 1 "+1V1" V 2365 5528 50  0000 L CNN
+F 2 "" H 2350 5400 50  0001 C CNN
+F 3 "" H 2350 5400 50  0001 C CNN
+	1    2350 5400
+	0    1    1    0   
+$EndComp
+Text Label 2250 5400 0    50   ~ 0
+1.16VoltsActual
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA01FDA
+P 3955 5705
+F 0 "#PWR?" H 3955 5555 50  0001 C CNN
+F 1 "+3.3V" H 3970 5878 50  0000 C CNN
+F 2 "" H 3955 5705 50  0001 C CNN
+F 3 "" H 3955 5705 50  0001 C CNN
+	1    3955 5705
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA08194
+P 3855 5705
+F 0 "#PWR?" H 3855 5555 50  0001 C CNN
+F 1 "+1V1" H 3870 5878 50  0000 C CNN
+F 2 "" H 3855 5705 50  0001 C CNN
+F 3 "" H 3855 5705 50  0001 C CNN
+	1    3855 5705
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3855 5705 3850 5705
+Connection ~ 3855 5705
+Connection ~ 4600 6100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA145C3
+P 5055 5595
+F 0 "#PWR?" H 5055 5445 50  0001 C CNN
+F 1 "+3.3V" H 5070 5768 50  0000 C CNN
+F 2 "" H 5055 5595 50  0001 C CNN
+F 3 "" H 5055 5595 50  0001 C CNN
+	1    5055 5595
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 5995 5300 6100
+Wire Wire Line
+	5300 5995 5300 5820
+Wire Wire Line
+	5300 5820 4955 5820
+Connection ~ 5300 5995
+Wire Wire Line
+	4855 5925 4600 5925
+Wire Wire Line
+	4600 5925 4600 5995
+Connection ~ 4600 5995
+Wire Wire Line
+	4600 5995 4600 6100
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA190EC
+P 4455 5595
+F 0 "#PWR?" H 4455 5445 50  0001 C CNN
+F 1 "+1V1" H 4470 5768 50  0000 C CNN
+F 2 "" H 4455 5595 50  0001 C CNN
+F 3 "" H 4455 5595 50  0001 C CNN
+	1    4455 5595
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA1A702
+P 5555 4295
+F 0 "#PWR?" H 5555 4145 50  0001 C CNN
+F 1 "+1V1" V 5570 4423 50  0000 L CNN
+F 2 "" H 5555 4295 50  0001 C CNN
+F 3 "" H 5555 4295 50  0001 C CNN
+	1    5555 4295
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA1A8B1
+P 5555 3495
+F 0 "#PWR?" H 5555 3345 50  0001 C CNN
+F 1 "+1V1" V 5570 3623 50  0000 L CNN
+F 2 "" H 5555 3495 50  0001 C CNN
+F 3 "" H 5555 3495 50  0001 C CNN
+	1    5555 3495
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA1AC05
+P 5555 3195
+F 0 "#PWR?" H 5555 3045 50  0001 C CNN
+F 1 "+3.3V" V 5570 3323 50  0000 L CNN
+F 2 "" H 5555 3195 50  0001 C CNN
+F 3 "" H 5555 3195 50  0001 C CNN
+	1    5555 3195
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA1B705
+P 3355 3295
+F 0 "#PWR?" H 3355 3145 50  0001 C CNN
+F 1 "+3.3V" V 3370 3423 50  0000 L CNN
+F 2 "" H 3355 3295 50  0001 C CNN
+F 3 "" H 3355 3295 50  0001 C CNN
+	1    3355 3295
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA1CA8D
+P 3855 2095
+F 0 "#PWR?" H 3855 1945 50  0001 C CNN
+F 1 "+1V1" H 3870 2268 50  0000 C CNN
+F 2 "" H 3855 2095 50  0001 C CNN
+F 3 "" H 3855 2095 50  0001 C CNN
+	1    3855 2095
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA1D56E
+P 4155 2095
+F 0 "#PWR?" H 4155 1945 50  0001 C CNN
+F 1 "+1V1" H 4170 2268 50  0000 C CNN
+F 2 "" H 4155 2095 50  0001 C CNN
+F 3 "" H 4155 2095 50  0001 C CNN
+	1    4155 2095
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5DA1DC61
+P 4855 2095
+F 0 "#PWR?" H 4855 1945 50  0001 C CNN
+F 1 "+1V1" H 4870 2268 50  0000 C CNN
+F 2 "" H 4855 2095 50  0001 C CNN
+F 3 "" H 4855 2095 50  0001 C CNN
+	1    4855 2095
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 5400 2350 5400
+Wire Wire Line
+	4055 5595 4055 5605
+Wire Wire Line
+	4155 5605 4150 5605
+Wire Wire Line
+	4155 5595 4155 5605
+Connection ~ 4155 5605
+Wire Wire Line
+	4155 5605 4155 6245
+Wire Wire Line
+	4055 5605 4050 5605
+Wire Wire Line
+	4050 5605 4050 5600
+Wire Wire Line
+	4050 5600 4055 5600
+Connection ~ 4055 5605
+Wire Wire Line
+	4055 5605 4055 6150
+Wire Wire Line
+	3950 5600 3950 5595
+Wire Wire Line
+	3950 5595 3955 5595
+Wire Wire Line
+	3960 5590 3960 5705
+Wire Wire Line
+	3960 5705 3955 5705
+Connection ~ 3955 5705
+Wire Wire Line
+	4855 5595 4855 5600
+Wire Wire Line
+	4850 5605 4850 5600
+Wire Wire Line
+	4850 5600 4855 5600
+Connection ~ 4855 5600
+Wire Wire Line
+	4855 5600 4855 5925
+Wire Wire Line
+	4855 5600 4860 5600
+Wire Wire Line
+	4860 5600 4860 5610
+Text GLabel 975  1130 1    50   Input ~ 0
+5vVcc
+$Comp
+L USBhUB:MAF1608GAD471CT000 60ohmBead
+U 1 1 5DA41A60
+P 975 1310
+F 0 "60ohmBead" V 1329 1438 50  0000 L CNN
+F 1 "MAF1608GAD471CT000" V 1420 1438 50  0000 L CNN
+F 2 "BEADC1608X95N" H 1625 1410 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MAF1608GAD471CT000.pdf" H 1625 1310 50  0001 L CNN
+F 4 "Ferrite Beads 60,@100mhZ, 1608 Audio Noise Suprsion" H 1625 1210 50  0001 L CNN "Description"
+F 5 "0.95" H 1625 1110 50  0001 L CNN "Height"
+F 6 "810-MAF1608GAD471CT0" H 1625 1010 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=810-MAF1608GAD471CT0" H 1625 910 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TDK" H 1625 810 50  0001 L CNN "Manufacturer_Name"
+F 9 "MAF1608GAD471CT000" H 1625 710 50  0001 L CNN "Manufacturer_Part_Number"
+	1    975  1310
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	975  1135 975  1220
+$Comp
+L USBhUB:SMDTC03100KA00MQ00 100nf
+U 1 1 5DA4925C
+P 975 1220
+F 0 "100nf" H 1225 1393 50  0000 C CNN
+F 1 "SMDTC03100KA00MQ00" H 1225 1394 50  0001 C CNN
+F 2 "CAPC4833X300N" H 1325 1270 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SMDTC03100KA00MQ00.pdf" H 1325 1170 50  0001 L CNN
+F 4 "Film Capacitors 63V .1uF 20% MAX REFLOW 220C" H 1325 1070 50  0001 L CNN "Description"
+F 5 "3" H 1325 970 50  0001 L CNN "Height"
+F 6 "505-PET18.1/63/20" H 1325 870 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=505-PET18.1%2F63%2F20" H 1325 770 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WIMA" H 1325 670 50  0001 L CNN "Manufacturer_Name"
+F 9 "SMDTC03100KA00MQ00" H 1325 570 50  0001 L CNN "Manufacturer_Part_Number"
+	1    975  1220
+	1    0    0    -1  
+$EndComp
+Connection ~ 975  1220
+Wire Wire Line
+	975  2105 975  2110
+Connection ~ 975  2110
+Wire Wire Line
+	975  2110 975  2260
+Wire Wire Line
+	975  1220 975  1310
+Wire Wire Line
+	985  1310 975  1310
+Connection ~ 975  1310
+Wire Wire Line
+	975  1310 970  1310
+$Comp
+L USBhUB:GRM32EC70J107ME15L 100uf
+U 1 1 5DA56C67
+P 975 2260
+F 0 "100uf" H 1225 2433 50  0000 C CNN
+F 1 "GRM32EC70J107ME15L" H 1225 2434 50  0001 C CNN
+F 2 "CAPC3225X270N" H 1325 2310 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/GRM32EC70J107ME15L.pdf" H 1325 2210 50  0001 L CNN
+F 4 "" H 1325 2110 50  0001 L CNN "Description"
+F 5 "2.7" H 1325 2010 50  0001 L CNN "Height"
+F 6 "81-GRM32EC70J107ME5L" H 1325 1910 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM32EC70J107ME5L" H 1325 1810 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Murata Electronics" H 1325 1710 50  0001 L CNN "Manufacturer_Name"
+F 9 "GRM32EC70J107ME15L" H 1325 1610 50  0001 L CNN "Manufacturer_Part_Number"
+	1    975  2260
+	1    0    0    -1  
+$EndComp
+Connection ~ 975  2260
+Wire Wire Line
+	975  2260 975  2390
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5A471
+P 1475 1220
+F 0 "#PWR?" H 1475 970 50  0001 C CNN
+F 1 "GND" V 1480 1092 50  0000 R CNN
+F 2 "" H 1475 1220 50  0001 C CNN
+F 3 "" H 1475 1220 50  0001 C CNN
+	1    1475 1220
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DA5B898
+P 1475 2260
+F 0 "#PWR?" H 1475 2010 50  0001 C CNN
+F 1 "GND" V 1480 2132 50  0000 R CNN
+F 2 "" H 1475 2260 50  0001 C CNN
+F 3 "" H 1475 2260 50  0001 C CNN
+	1    1475 2260
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1075 2380 1075 2390
+Wire Wire Line
+	1075 2390 975  2390
+Text GLabel 1075 2380 3    50   Input ~ 0
+5Vfiltered
+Wire Wire Line
+	3085 5420 3105 5420
+Text GLabel 3105 5420 1    50   Input ~ 0
+5Vfiltered
+Wire Wire Line
+	3260 6835 2985 6835
+$Comp
+L power:GND #PWR?
+U 1 1 5DA60462
+P 3085 6705
+F 0 "#PWR?" H 3085 6455 50  0001 C CNN
+F 1 "GND" H 3090 6532 50  0000 C CNN
+F 2 "" H 3085 6705 50  0001 C CNN
+F 3 "" H 3085 6705 50  0001 C CNN
+	1    3085 6705
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3085 5705 3085 5420
+Connection ~ 3085 5705
+Wire Wire Line
+	3085 5710 3085 5705
+Connection ~ 2985 5705
+Wire Wire Line
+	2985 5705 2980 5705
+Wire Wire Line
+	2985 6705 2985 6700
+Connection ~ 2985 6705
+Wire Wire Line
+	3260 6245 4155 6245
+Wire Wire Line
+	2985 6700 2980 6700
+Wire Wire Line
+	2985 6835 2985 6705
+Wire Wire Line
+	3260 6245 3260 6835
+Wire Wire Line
+	3265 6150 4055 6150
+Wire Wire Line
+	2985 5590 2985 5705
+Wire Wire Line
+	3265 5590 2985 5590
+Wire Wire Line
+	3265 6150 3265 5590
+$Comp
+L USBhUB:SS-52100-001 J?
+U 1 1 5DA2AA10
+P 3085 5705
+F 0 "J?" V 3539 5833 50  0000 L CNN
+F 1 "SS-52100-001" V 3630 5833 50  0000 L CNN
+F 2 "SS52100001" H 3935 5805 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SS-52100-001.pdf" H 3935 5705 50  0001 L CNN
+F 4 "STEWART CONNECTOR - SS-52100-001 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH" H 3935 5605 50  0001 L CNN "Description"
+F 5 "6.9" H 3935 5505 50  0001 L CNN "Height"
+F 6 "530-SS-52100-001" H 3935 5405 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-52100-001" H 3935 5305 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bel-Stewart" H 3935 5205 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS-52100-001" H 3935 5105 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3085 5705
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7060 3200 7335 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5DA6FBCC
+P 7235 3330
+F 0 "#PWR?" H 7235 3080 50  0001 C CNN
+F 1 "GND" H 7240 3157 50  0000 C CNN
+F 2 "" H 7235 3330 50  0001 C CNN
+F 3 "" H 7235 3330 50  0001 C CNN
+	1    7235 3330
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7235 4330 7235 4615
+Connection ~ 7235 4330
+Wire Wire Line
+	7235 4325 7235 4330
+Connection ~ 7335 4330
+Wire Wire Line
+	7335 4330 7340 4330
+Wire Wire Line
+	7335 3330 7335 3335
+Connection ~ 7335 3330
+Wire Wire Line
+	7335 3335 7340 3335
+Wire Wire Line
+	7335 3200 7335 3330
+Wire Wire Line
+	7060 3790 7060 3200
+Wire Wire Line
+	7335 4445 7335 4330
+Wire Wire Line
+	7055 4445 7335 4445
+Wire Wire Line
+	7055 3885 7055 4445
+$Comp
+L USBhUB:SS-52100-001 J?
+U 1 1 5DA6FBE7
+P 7235 4330
+F 0 "J?" V 7689 4458 50  0000 L CNN
+F 1 "SS-52100-001" V 7780 4458 50  0000 L CNN
+F 2 "SS52100001" H 8085 4430 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SS-52100-001.pdf" H 8085 4330 50  0001 L CNN
+F 4 "STEWART CONNECTOR - SS-52100-001 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH" H 8085 4230 50  0001 L CNN "Description"
+F 5 "6.9" H 8085 4130 50  0001 L CNN "Height"
+F 6 "530-SS-52100-001" H 8085 4030 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-52100-001" H 8085 3930 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bel-Stewart" H 8085 3830 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS-52100-001" H 8085 3730 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7235 4330
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5555 3885 7055 3885
+Wire Wire Line
+	5555 3885 5555 3895
+Wire Wire Line
+	5550 3895 5555 3895
+Wire Wire Line
+	5550 3795 5555 3795
+Wire Wire Line
+	5555 3790 5555 3795
+Wire Wire Line
+	6160 3785 6160 3790
+Wire Wire Line
+	6155 3790 6160 3790
+Connection ~ 6160 3790
+Wire Wire Line
+	6160 3790 6160 3800
+Wire Wire Line
+	6160 3790 7060 3790
+Text GLabel 7235 4615 3    50   Input ~ 0
+5Vfiltered
+Wire Wire Line
+	6995 1270 7270 1270
+$Comp
+L power:GND #PWR?
+U 1 1 5DA8346B
+P 7170 1400
+F 0 "#PWR?" H 7170 1150 50  0001 C CNN
+F 1 "GND" H 7175 1227 50  0000 C CNN
+F 2 "" H 7170 1400 50  0001 C CNN
+F 3 "" H 7170 1400 50  0001 C CNN
+	1    7170 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7170 2400 7170 2685
+Connection ~ 7170 2400
+Wire Wire Line
+	7170 2395 7170 2400
+Connection ~ 7270 2400
+Wire Wire Line
+	7270 2400 7275 2400
+Wire Wire Line
+	7270 1400 7270 1405
+Connection ~ 7270 1400
+Wire Wire Line
+	7270 1405 7275 1405
+Wire Wire Line
+	7270 1270 7270 1400
+Wire Wire Line
+	6995 1860 6995 1270
+Wire Wire Line
+	7270 2515 7270 2400
+Wire Wire Line
+	6990 2515 7270 2515
+Wire Wire Line
+	6990 1955 6990 2515
+$Comp
+L USBhUB:SS-52100-001 J?
+U 1 1 5DA83484
+P 7170 2400
+F 0 "J?" V 7624 2528 50  0000 L CNN
+F 1 "SS-52100-001" V 7715 2528 50  0000 L CNN
+F 2 "SS52100001" H 8020 2500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SS-52100-001.pdf" H 8020 2400 50  0001 L CNN
+F 4 "STEWART CONNECTOR - SS-52100-001 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH" H 8020 2300 50  0001 L CNN "Description"
+F 5 "6.9" H 8020 2200 50  0001 L CNN "Height"
+F 6 "530-SS-52100-001" H 8020 2100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-52100-001" H 8020 2000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bel-Stewart" H 8020 1900 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS-52100-001" H 8020 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7170 2400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7170 2685 3    50   Input ~ 0
+5Vfiltered
+Wire Wire Line
+	5255 1955 6990 1955
+Wire Wire Line
+	5155 1860 6995 1860
+Wire Wire Line
+	3820 1125 3820 850 
+$Comp
+L power:GND #PWR?
+U 1 1 5DA9774C
+P 3950 950
+F 0 "#PWR?" H 3950 700 50  0001 C CNN
+F 1 "GND" H 3955 777 50  0000 C CNN
+F 2 "" H 3950 950 50  0001 C CNN
+F 3 "" H 3950 950 50  0001 C CNN
+	1    3950 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 950  5235 950 
+Connection ~ 4950 950 
+Wire Wire Line
+	4945 950  4950 950 
+Connection ~ 4950 850 
+Wire Wire Line
+	4950 850  4950 845 
+Wire Wire Line
+	3950 850  3955 850 
+Connection ~ 3950 850 
+Wire Wire Line
+	3955 850  3955 845 
+Wire Wire Line
+	3820 850  3950 850 
+Wire Wire Line
+	4410 1125 3820 1125
+Wire Wire Line
+	5065 850  4950 850 
+Wire Wire Line
+	5065 1130 5065 850 
+Wire Wire Line
+	4505 1130 5065 1130
+$Comp
+L USBhUB:SS-52100-001 J?
+U 1 1 5DA97765
+P 4950 950
+F 0 "J?" V 5404 1078 50  0000 L CNN
+F 1 "SS-52100-001" V 5495 1078 50  0000 L CNN
+F 2 "SS52100001" H 5800 1050 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SS-52100-001.pdf" H 5800 950 50  0001 L CNN
+F 4 "STEWART CONNECTOR - SS-52100-001 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH" H 5800 850 50  0001 L CNN "Description"
+F 5 "6.9" H 5800 750 50  0001 L CNN "Height"
+F 6 "530-SS-52100-001" H 5800 650 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-52100-001" H 5800 550 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bel-Stewart" H 5800 450 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS-52100-001" H 5800 350 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4950 950 
+	-1   0    0    1   
+$EndComp
+Text GLabel 5235 950  2    50   Input ~ 0
+5Vfiltered
+Wire Wire Line
+	4505 1135 4505 1745
+Wire Wire Line
+	4505 1745 4555 1745
+Wire Wire Line
+	4410 1125 4410 1975
+Wire Wire Line
+	4410 1975 4460 1975
+Wire Wire Line
+	4465 2090 4460 2090
+Wire Wire Line
+	4455 2090 4455 2095
+Wire Wire Line
+	4460 1975 4460 2090
+Connection ~ 4460 2090
+Wire Wire Line
+	4460 2090 4455 2090
+Wire Wire Line
+	4460 2090 4460 2095
+Wire Wire Line
+	4460 2090 4460 2085
+Wire Wire Line
+	4460 2085 4465 2085
+Wire Wire Line
+	4465 2085 4465 2090
+Wire Wire Line
+	6555 4560 6830 4560
+$Comp
+L power:GND #PWR?
+U 1 1 5DAD1694
+P 6730 4690
+F 0 "#PWR?" H 6730 4440 50  0001 C CNN
+F 1 "GND" H 6735 4517 50  0000 C CNN
+F 2 "" H 6730 4690 50  0001 C CNN
+F 3 "" H 6730 4690 50  0001 C CNN
+	1    6730 4690
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6730 5690 6730 5975
+Connection ~ 6730 5690
+Wire Wire Line
+	6730 5685 6730 5690
+Connection ~ 6830 5690
+Wire Wire Line
+	6830 5690 6835 5690
+Wire Wire Line
+	6830 4690 6830 4695
+Connection ~ 6830 4690
+Wire Wire Line
+	6830 4695 6835 4695
+Wire Wire Line
+	6830 4560 6830 4690
+Wire Wire Line
+	6830 5805 6830 5690
+Wire Wire Line
+	6550 5805 6830 5805
+Wire Wire Line
+	6550 5245 6550 5805
+$Comp
+L USBhUB:SS-52100-001 J?
+U 1 1 5DAD16AD
+P 6730 5690
+F 0 "J?" V 7184 5818 50  0000 L CNN
+F 1 "SS-52100-001" V 7275 5818 50  0000 L CNN
+F 2 "SS52100001" H 7580 5790 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SS-52100-001.pdf" H 7580 5690 50  0001 L CNN
+F 4 "STEWART CONNECTOR - SS-52100-001 - USB CONN, 2.0 TYPE A, RCPT, 4POS, TH" H 7580 5590 50  0001 L CNN "Description"
+F 5 "6.9" H 7580 5490 50  0001 L CNN "Height"
+F 6 "530-SS-52100-001" H 7580 5390 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=530-SS-52100-001" H 7580 5290 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Bel-Stewart" H 7580 5190 50  0001 L CNN "Manufacturer_Name"
+F 9 "SS-52100-001" H 7580 5090 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6730 5690
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6730 5975 3    50   Input ~ 0
+5Vfiltered
+Wire Wire Line
+	5550 4700 5550 5245
+Wire Wire Line
+	5550 4700 5550 4695
+Wire Wire Line
+	5545 4700 5550 4700
+Connection ~ 5550 4700
+Wire Wire Line
+	5255 1955 5255 2100
+Wire Wire Line
+	5155 1860 5155 2100
+Wire Wire Line
+	4555 1745 4555 2100
+Wire Wire Line
+	5675 4600 5675 4595
+Wire Wire Line
+	5675 4600 6555 4600
+Wire Wire Line
+	6555 4560 6555 4600
+Connection ~ 5675 4600
+Wire Wire Line
+	4850 2100 4855 2100
+Wire Wire Line
+	4855 2100 4855 2095
+Wire Wire Line
+	4150 2100 4150 2095
+Wire Wire Line
+	4150 2095 4155 2095
+Wire Wire Line
+	3850 2100 3850 2095
+Wire Wire Line
+	3850 2095 3855 2095
+Wire Wire Line
+	3650 2100 3650 2095
+Wire Wire Line
+	3650 2095 3655 2095
+Wire Wire Line
+	3350 3300 3350 3295
+Wire Wire Line
+	3350 3295 3355 3295
+Wire Wire Line
+	5550 3200 5550 3195
+Wire Wire Line
+	5550 3195 5555 3195
+Wire Wire Line
+	5560 3500 5560 3495
+Wire Wire Line
+	5560 3495 5555 3495
+Wire Wire Line
+	5535 3805 5535 3800
+Wire Wire Line
+	5535 3800 5550 3800
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3800 6160 3800
+Wire Wire Line
+	5550 3800 5550 3810
+Wire Wire Line
+	5545 3900 5550 3900
+Wire Wire Line
+	5550 3900 5550 3895
+Connection ~ 5550 3900
+Wire Wire Line
+	5550 3900 5555 3900
+Wire Wire Line
+	5550 5245 6550 5245
+Connection ~ 5550 5245
+Wire Wire Line
+	5550 5245 5550 5250
+$Comp
+L USBhUB:SMDTC03100KA00MQ00 100nf
+U 1 1 5DB6F029
+P 1345 4465
+F 0 "100nf" H 1595 4638 50  0000 C CNN
+F 1 "SMDTC03100KA00MQ00" H 1595 4639 50  0001 C CNN
+F 2 "CAPC4833X300N" H 1695 4515 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/SMDTC03100KA00MQ00.pdf" H 1695 4415 50  0001 L CNN
+F 4 "Film Capacitors 63V .1uF 20% MAX REFLOW 220C" H 1695 4315 50  0001 L CNN "Description"
+F 5 "3" H 1695 4215 50  0001 L CNN "Height"
+F 6 "505-PET18.1/63/20" H 1695 4115 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=505-PET18.1%2F63%2F20" H 1695 4015 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WIMA" H 1695 3915 50  0001 L CNN "Manufacturer_Name"
+F 9 "SMDTC03100KA00MQ00" H 1695 3815 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1345 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1845 4475 1845 4465
+Wire Wire Line
+	1845 4465 1840 4465
+Connection ~ 1845 4465
+$Comp
+L power:GND #PWR?
+U 1 1 5DB77BF1
+P 1345 4465
+F 0 "#PWR?" H 1345 4215 50  0001 C CNN
+F 1 "GND" V 1350 4337 50  0000 R CNN
+F 2 "" H 1345 4465 50  0001 C CNN
+F 3 "" H 1345 4465 50  0001 C CNN
+	1    1345 4465
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3955 5595 3955 5705
+Wire Wire Line
+	3855 5590 3855 5705
+Wire Wire Line
+	4945 5605 4945 5600
+Wire Wire Line
+	4955 5595 4955 5610
+Wire Wire Line
+	4955 5610 4950 5610
+Connection ~ 4955 5610
+Wire Wire Line
+	4955 5610 4955 5820
+Wire Wire Line
+	5050 5600 5050 5595
+Wire Wire Line
+	5050 5595 5055 5595
+$Comp
+L power:GND #PWR?
+U 1 1 5DC38479
+P 5850 5600
+F 0 "#PWR?" H 5850 5350 50  0001 C CNN
+F 1 "GND" V 5855 5472 50  0000 R CNN
+F 2 "" H 5850 5600 50  0001 C CNN
+F 3 "" H 5850 5600 50  0001 C CNN
+	1    5850 5600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5550 4600
+Connection ~ 5550 3500
+Wire Wire Line
+	5550 3500 5560 3500
+Wire Wire Line
+	5545 3500 5550 3500
+Wire Wire Line
+	5550 4600 5675 4600
+Wire Wire Line
+	5550 4600 5555 4600
+Wire Wire Line
+	5545 4600 5550 4600
+$Comp
+L USBhUB:TUSB4041IPAPR IC?
+U 1 1 5D9D1632
+P 3350 3200
+F 0 "IC?" H 5594 2596 50  0000 L CNN
+F 1 "TUSB4041IPAPR" H 5594 2505 50  0000 L CNN
+F 2 "QFP50P1200X1200X120-65N" H 5400 4100 50  0001 L CNN
+F 3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TUSB4041I&&fileType=pdf" H 5400 4000 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - TUSB4041IPAPR - USB 2.0 HUB, 480MBPS, HTQFP-64" H 5400 3900 50  0001 L CNN "Description"
+F 5 "1.2" H 5400 3800 50  0001 L CNN "Height"
+F 6 "595-TUSB4041IPAPR" H 5400 3700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TUSB4041IPAPR" H 5400 3600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 5400 3500 50  0001 L CNN "Manufacturer_Name"
+F 9 "TUSB4041IPAPR" H 5400 3400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBhUB:ERA-6AEB9531V 9.53k
+U 1 1 5DC36734
+P 5150 5600
+F 0 "9.53k" H 5500 5733 50  0000 C CNN
+F 1 "ERA-6AEB9531V" H 5500 5734 50  0001 C CNN
+F 2 "RESC2012X60N" H 5700 5650 50  0001 L CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5700 5550 50  0001 L CNN
+F 4 "Metal Film (Thin Film) Chip Resistor 9531" H 5700 5450 50  0001 L CNN "Description"
+F 5 "0.6" H 5700 5350 50  0001 L CNN "Height"
+F 6 "" H 5700 5250 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 5700 5150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 5700 5050 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERA-6AEB9531V" H 5700 4950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBhUB:ERJ-2RKF1002X 10k
+U 1 1 5DC4D7EA
+P 2460 4710
+F 0 "10k" H 2810 4843 50  0000 C CNN
+F 1 "ERJ-2RKF1002X" H 2810 4844 50  0001 C CNN
+F 2 "RESC1005X40N" H 3010 4760 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERJ-2RKF1002X.pdf" H 3010 4660 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0402 10Kohms 1% AEC-Q200" H 3010 4560 50  0001 L CNN "Description"
+F 5 "0.4" H 3010 4460 50  0001 L CNN "Height"
+F 6 "667-ERJ-2RKF1002X" H 3010 4360 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-2RKF1002X" H 3010 4260 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 3010 4160 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-2RKF1002X" H 3010 4060 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2460 4710
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4700 3270 4700
+Wire Wire Line
+	3160 4700 3160 4710
+Wire Wire Line
+	2460 4710 2460 4790
+$Comp
+L power:GND #PWR?
+U 1 1 5DC5F835
+P 2460 4790
+F 0 "#PWR?" H 2460 4540 50  0001 C CNN
+F 1 "GND" H 2465 4617 50  0000 C CNN
+F 2 "" H 2460 4790 50  0001 C CNN
+F 3 "" H 2460 4790 50  0001 C CNN
+	1    2460 4790
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBhUB:ERJ-S03F9092V 90.9kohm
+U 1 1 5DC68978
+P 3270 4700
+F 0 "90.9kohm" V 3574 4788 50  0000 L CNN
+F 1 "ERJ-S03F9092V" V 3665 4788 50  0000 L CNN
+F 2 "RESC1608X55N" H 3820 4750 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ERJ-S03F9092V.pdf" H 3820 4650 50  0001 L CNN
+F 4 "Thick Film Resistors - SMD 0603 90.9Kohms 1% Anti-Sulfur" H 3820 4550 50  0001 L CNN "Description"
+F 5 "0.55" H 3820 4450 50  0001 L CNN "Height"
+F 6 "667-ERJ-S03F9092V" H 3820 4350 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-S03F9092V" H 3820 4250 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Panasonic" H 3820 4150 50  0001 L CNN "Manufacturer_Name"
+F 9 "ERJ-S03F9092V" H 3820 4050 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3270 4700
+	0    1    1    0   
+$EndComp
+Connection ~ 3270 4700
+Wire Wire Line
+	3270 4700 3160 4700
+Text GLabel 3270 5400 3    50   Input ~ 0
+5Vfiltered
+$Comp
+L MCU_Module:Arduino_Nano_v2.x A?
+U 1 1 5DC84B79
+P 9420 4845
+F 0 "A?" H 9420 3756 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 9420 3665 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 9570 3895 50  0001 L CNN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 9420 3845 50  0001 C CNN
+	1    9420 4845
+	1    0    0    -1  
+$EndComp
+Text GLabel 9320 3845 1    50   Input ~ 0
+5vVcc
+$Comp
+L power:GND #PWR?
+U 1 1 5DC8F0F6
+P 9520 5845
+F 0 "#PWR?" H 9520 5595 50  0001 C CNN
+F 1 "GND" H 9525 5672 50  0000 C CNN
+F 2 "" H 9520 5845 50  0001 C CNN
+F 3 "" H 9520 5845 50  0001 C CNN
+	1    9520 5845
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
